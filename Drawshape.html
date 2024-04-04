@@ -1,0 +1,28 @@
+<html>
+<head>
+  <title>shapes</title>
+  <link rel="stylesheet" href="Drawshape.css">
+  <script src="Drawshape.js">
+  </script>
+  </head>
+  <body bgcolor=yellow>
+    <div><h1 class="start">Select a shape</h1></div>
+  <canvas id="Thecanvas" width="600" height="390"></canvas>
+   <div class="selection"><h3>This is the only shapes you can select: circle, rectangle, square, pentagon, triangle<h3></div>
+  <form>
+    <label for="Choose a shape"></label>
+    <select name="whatshape" id="whatshape" class="dropdown">
+    <optgroup label="The shapes">
+      <option value="circle">circle</option>
+      <option value="rectangle">rectangle</option>
+      <option value="square">square</option>
+      <option value="pentagon">pentagon</option>
+      <option value="triangle">triangle</option>
+    </optgroup>
+  </select>
+        </form>
+        <button type="button" onclick="drawif()" class="shapes">  enter   </button>
+        <button type="button" onclick="clear_()"class="dismount">click to clear</button>
+        <a class="idk" href="https://www.w3schools.com/graphics/canvas_coordinates.asp" target="_blank"><br>if you don't know what x and y coordnites are click this link</a>
+  </body>
+</html>
