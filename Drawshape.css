@@ -10,6 +10,27 @@
   padding-right: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
+  position: relative;
+}
+.hi{
+  color: white;
+  font-weight: bold;
+}
+.shapes .hi{
+  position: absolute;
+  background-color: gray;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 8px;
+  bottom: -25px;
+  right: 10px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.shapes:hover .hi{
+  opacity: 1;
 }
 .shapes:hover{
   box-shadow: 5px 5px 10px rgba(0,0,0,.35);
@@ -28,6 +49,25 @@
   padding-top: 10px;
   padding-bottom: 10px;
   vertical-align: top;
+  position: relative;
+}
+.bye{
+  color: white;
+}
+.dismount .bye{
+  position: absolute;
+  background-color: gray;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 8px;
+  bottom: -25px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.dismount:hover .bye{
+  opacity: 1;
 }
 .dismount:hover{
   opacity: .5;
@@ -49,15 +89,14 @@
   left: 480px;
 }
 .dropdown{
-  color:white;
-  background-color:blue;
+  color: white;
+  background-color: blue;
   border: none;
   margin-left: 530px;
   border-radius: 10px;
-   transition: 1s;
+  transition: 1s;
   cursor: pointer;
 }
 .dropdown:hover{
   box-shadow: 5px 5px 10px rgba(0,0,0,.35);
 }
-
