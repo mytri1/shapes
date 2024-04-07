@@ -45,10 +45,14 @@
   font-family: Arial;
   font-weight: bold;
   font-style: italic;
-  text-align: center;
+  position: fixed;
+  left: 480px;
 }
 .dropdown{
+  color:white;
+  background-color:blue;
   border: none;
   margin-left: 530px;
+  border-radius: 10px;
   border-radius: 10px;
 }
