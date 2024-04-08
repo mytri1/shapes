@@ -28,6 +28,7 @@
   right: 10px;
   opacity: 0;
   transition: opacity 1s;
+  pointer-events: none;
 }
 .shapes:hover .hi{
   opacity: 1;
@@ -65,6 +66,7 @@
   bottom: -25px;
   opacity: 0;
   transition: opacity 1s;
+  pointer-events: none;
 }
 .dismount:hover .bye{
   opacity: 1;
