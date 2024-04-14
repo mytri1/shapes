@@ -14,7 +14,7 @@
 }
 .hi{
   color: white;
-  font-weight: 700;
+  font-weight: bold;
 }
 .shapes .hi{
   position: absolute;
@@ -77,13 +77,16 @@
 .dismount:active{
   opacity: .3;
 }
-.selection{
+.whattodo{
   font-family: Arial;
   font-weight: bold;
   font-style: normal;
-  text-align: center;
+  left: 480px;
+  position: fixed;
+  margin-top: 35px;
 }
-.start{
+.words{
+  margin-top: -10px;
   font-family: Arial;
   font-weight: bold;
   font-style: italic;
@@ -94,10 +97,12 @@
   color: white;
   background-color: blue;
   border: none;
-  margin-left: 530px;
+  margin-left: 610px;
   border-radius: 10px;
   transition: 1s;
   cursor: pointer;
+  position: fixed;
+  margin-top: 38px;
 }
 .dropdown:hover{
   box-shadow: 5px 5px 10px rgba(0,0,0,.35);
@@ -108,3 +113,8 @@
 .me{
   margin-left: 450px;
 }
+.buttons{
+  margin-top: 75px;
+  position: fixed;
+}
+
