@@ -102,3 +102,9 @@
 .dropdown:hover{
   box-shadow: 5px 5px 10px rgba(0,0,0,.35);
 }
+.pic{
+  margin-left: 160px;
+}
+.me{
+  margin-left: 450px;
+}
