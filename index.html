@@ -7,25 +7,28 @@
   </script>
   </head>
   <body bgcolor=yellow>
-    <div><h1 class="start">Select a shape</h1></div>
-  <canvas id="Thecanvas" width="2300" height="2250"></canvas>
-   <div class="selection"><h3>This is the only shapes you can select: circle, rectangle, square, pentagon, triangle<h3></div>
-  <form>
-    <label for="Choose a shape"></label>
-    <select name="whatshape" id="whatshape" class="dropdown">
-    <optgroup label="The shapes">
-      <option value="circle">circle</option>
-      <option value="rectangle">rectangle</option>
-      <option value="square">square</option>
-      <option value="pentagon">pentagon</option>
-      <option value="triangle">triangle</option>
-    </optgroup>
-  </select>
-        </form>
-        <button type="button" onclick="drawif()" class="shapes"><div>enter</div><div class="hi">hi creation</div></button>
-        <button type="button" onclick="clear_()"class="dismount"><div>click to clear</div><div class="bye">bye creation</div></button>
-        <a class="idk" href="https://www.w3schools.com/graphics/canvas_coordinates.asp" target="_blank"><br>if you don't know what x and y coordnites are click this link</a>
-        <img src="WIN_20240413_20_07_09_Pro.jpg" height="50" width="50" class="pic">
-     <div class="me">The picture is the creater of this wedsite</div>
-   </body>
+    <div><h1 class="words">Draw a shape</h1>
+      <h3 class="whattodo">select a shape<h3>
+        <form>
+          <label for="Choose a shape"></label>
+          <select name="whatshape" id="whatshape" class="dropdown">
+          <optgroup label="The shapes">
+            <option value="circle">circle</option>
+            <option value="rectangle">rectangle</option>
+            <option value="square">square</option>
+            <option value="pentagon">pentagon</option>
+            <option value="triangle">triangle</option>
+          </optgroup>
+        </select>
+      </div>
+              </form>
+              <div class="buttons">
+              <button type="button" onclick="drawif()" class="shapes">enter<span class="hi">hi creation</span></button>
+              <button type="button" onclick="clear_()"class="dismount">click to clear<span class="bye"> bye creation</span></button>
+            </div>
+  <canvas id="Thecanvas" width="1250" height="526"></canvas>
+      <a class="idk" href="https://www.w3schools.com/graphics/canvas_coordinates.asp" target="_blank"><br>if you don't know what x and y coordnites are click this link</a>
+     <img src="WIN_20240413_20_07_09_Pro.jpg" height="50" width="50" class="pic">
+     <div class="me">This is the picture of the creater of this wedsite</div>
+  </body>
 </html>
